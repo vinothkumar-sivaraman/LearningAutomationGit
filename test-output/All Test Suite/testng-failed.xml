@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/Owner/workspace/learningautomation/src/main/java/org/learningselenium/com/Demo3.java(failed)">
+    <classes>
+      <class name="org.learning.com.Demo2">
+        <methods>
+          <include name="beforeInvokeBrowser"/>
+          <include name="test2"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- org.learning.com.Demo2 -->
+      <class name="org.learning.com.Demo3">
+        <methods>
+          <include name="beforeInvokeBrowser"/>
+          <include name="test2"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- org.learning.com.Demo3 -->
+    </classes>
+  </test> <!-- C:/Users/Owner/workspace/learningautomation/src/main/java/org/learningselenium/com/Demo3.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

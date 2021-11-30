@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LearningSelenium(failed)">
+    <classes>
+      <class name="org.learning.com.MyTest1">
+        <methods>
+          <include name="setTest"/>
+          <include name="test2"/>
+          <include name="beforeSuite"/>
+          <include name="method1"/>
+          <include name="getResult"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- org.learning.com.MyTest1 -->
+    </classes>
+  </test> <!-- LearningSelenium(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
