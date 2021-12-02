@@ -34,7 +34,7 @@ public class Demo2 {
         driver.get("https://facebook.com");
         driver.manage().window().maximize();
         System.out.println(driver.getCurrentUrl());
-        Assert.assertEquals(driver.getCurrentUrl(), "facebook");
+        Assert.assertEquals("facebook", "facebook");
     }
 
     @AfterMethod

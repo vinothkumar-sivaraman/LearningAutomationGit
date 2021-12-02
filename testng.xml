@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" parallel="classes" thread-count="3">
+<suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="Test1">
+          name="C:/Users/Owner/workspace/learningautomation/src/main/java/org/learning/com/Demo2.java">
         <classes>
-            <class name="org.learningselenium.com.InvocCount">
+            <class name="org.learning.com.Demo2">
+                <methods>
+                    <include name="test"/>
+                    <include name="test2"/>
+                </methods>
             </class>
         </classes>
     </test>
-
-<!--    !Hi -->
-
 </suite>
