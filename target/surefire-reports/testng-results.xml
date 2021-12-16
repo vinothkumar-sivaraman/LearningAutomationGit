@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="47" started-at="2021-12-02T16:38:40 MST" finished-at="2021-12-02T16:38:40 MST">
+  <suite name="All Test Suite" duration-ms="7571" started-at="2021-12-02T19:52:18 MST" finished-at="2021-12-02T19:52:26 MST">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="47" started-at="2021-12-02T16:38:40 MST" finished-at="2021-12-02T16:38:40 MST">
-      <class name="org.learningselenium.com.InvocCount">
-        <test-method status="PASS" signature="methodA()[pri:0, instance:org.learningselenium.com.InvocCount@1ec318]" name="methodA" duration-ms="0" started-at="2021-12-02T16:38:40 MST" finished-at="2021-12-02T16:38:40 MST">
+    <test name="C:/Users/Owner/workspace/learningautomation/src/main/java/org/learning/com/Demo2.java" duration-ms="7571" started-at="2021-12-02T19:52:18 MST" finished-at="2021-12-02T19:52:26 MST">
+      <class name="org.learning.com.Demo2">
+        <test-method status="PASS" signature="beforeInvokeBrowser()[pri:0, instance:org.learning.com.Demo2@480dd7]" name="beforeInvokeBrowser" is-config="true" duration-ms="2066" started-at="2021-12-02T19:52:18 MST" finished-at="2021-12-02T19:52:20 MST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodA -->
-        <test-method status="PASS" signature="methodA()[pri:0, instance:org.learningselenium.com.InvocCount@1ec318]" name="methodA" duration-ms="0" started-at="2021-12-02T16:38:40 MST" finished-at="2021-12-02T16:38:40 MST">
+        </test-method> <!-- beforeInvokeBrowser -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:org.learning.com.Demo2@480dd7]" name="test2" duration-ms="1314" started-at="2021-12-02T19:52:20 MST" finished-at="2021-12-02T19:52:22 MST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodA -->
-        <test-method status="PASS" signature="methodA()[pri:0, instance:org.learningselenium.com.InvocCount@1ec318]" name="methodA" duration-ms="0" started-at="2021-12-02T16:38:40 MST" finished-at="2021-12-02T16:38:40 MST">
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.learning.com.Demo2@480dd7]" name="closeBrowser" is-config="true" duration-ms="4155" started-at="2021-12-02T19:52:22 MST" finished-at="2021-12-02T19:52:26 MST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodA -->
-        <test-method status="PASS" signature="methodB()[pri:0, instance:org.learningselenium.com.InvocCount@1ec318]" name="methodB" duration-ms="0" started-at="2021-12-02T16:38:40 MST" finished-at="2021-12-02T16:38:40 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodB -->
-        <test-method status="PASS" signature="methodA()[pri:0, instance:org.learningselenium.com.InvocCount@1ec318]" name="methodA" duration-ms="0" started-at="2021-12-02T16:38:40 MST" finished-at="2021-12-02T16:38:40 MST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodA -->
-      </class> <!-- org.learningselenium.com.InvocCount -->
-    </test> <!-- Test1 -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.learning.com.Demo2 -->
+    </test> <!-- C:/Users/Owner/workspace/learningautomation/src/main/java/org/learning/com/Demo2.java -->
   </suite> <!-- All Test Suite -->
 </testng-results>

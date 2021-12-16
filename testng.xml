@@ -2,13 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="C:/Users/Owner/workspace/learningautomation/src/main/java/org/learning/com/Demo2.java">
+          name="C:/Users/Owner/workspace/learningautomation/src/main/java/org/learning/com/ctest1.java">
+        <groups>
+            <run>
+                <include name="FunctionalTest"/>
+            </run>
+        </groups>
         <classes>
-            <class name="org.learning.com.Demo2">
-                <methods>
-                    <include name="test2"/>
-                </methods>
-            </class>
+            <class name="org.learning.com.ctest1"/>
+            <class name="org.learning.com.ctest2"/>
+            <class name="org.learning.com.ctest3"/>
         </classes>
     </test>
 </suite>
