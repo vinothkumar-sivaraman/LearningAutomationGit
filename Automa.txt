@@ -1,1 +1,1 @@
-git merge file
+git merge file   
